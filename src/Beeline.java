@@ -5,7 +5,7 @@ public class Beeline {
         int bonus = 1; //количество бонусов
         int addBonus;
 
-        if (addBalance >= 1000) {
+        if (addBalance >= 1100) {
             addBonus = addBalance / 100 * bonus;
 
         } else {
