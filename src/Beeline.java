@@ -5,7 +5,7 @@ public class Beeline {
         int bonus = 1; //количество бонусов
         int addBonus;
 
-        if (addBalance >= 1100) {
+        if (addBalance >= 1001) {
             addBonus = addBalance / 100 * bonus;
 
         } else {
@@ -13,6 +13,6 @@ public class Beeline {
 
         }
 
-        System.out.println( "Бонус: " + (balance + addBalance + addBonus));
+        System.out.println("Бонус: " + (balance + addBalance + addBonus));
     }
 }
